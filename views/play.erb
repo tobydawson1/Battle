@@ -1,9 +1,24 @@
-<%= @player1_name %> vs. <%= @player2_name %>
+<%= @player_1_name.name %> vs. <%= @player_2_name.name %>
 
 <br>
 
-<%= @player2_name %>:<font color='red'> 60 HP</font>
+<%= @player_1_name.name %>:<font color='red'> 60 HP</font>
+
+<%= @player_2_name.name %>:<font color='red'> 60 HP</font>
 
 <br> 
 
-<a href="/attack">move into Attack</a>
+<a href="/attack">attack</a>
+
+<br>
+
+
+<a href="/">Pick new contenstants</a>
+
+<br>
+
+<%= @player_1_name.name %> vs. <%= @player_2_name.name %>
+
+<br>
+
+<%= @player_2_name.name %>: <%= @player_2_name.hit_points %>HP
