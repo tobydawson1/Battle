@@ -24,10 +24,9 @@ class Battle < Sinatra::Base
     end
 
     get '/play' do
-        '????'
-       p @game.player1.name
+        @game.player1.name
         @game.player2.name
-      p  @game.damage(@game.player2)
+        @game.damage(@game.player2)
         erb :play
     end
 
