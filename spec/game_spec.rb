@@ -7,7 +7,7 @@ describe Game do
 
     describe '#damage' do
         it 'damages a player' do
-            game = Game.new
+            game = Game.new(:charizard, :pikachu)
             game.damage(pikachu)
             expect { pikachu.receive_damage}.to change {pikachu.hit_points}.by(-10)
         end

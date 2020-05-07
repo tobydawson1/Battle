@@ -5,6 +5,10 @@ require './lib/game'
 
 class Battle < Sinatra::Base
 
+    before do
+        p @game = Game.instance
+    end
+
     # enable :sessions 
 
     get '/' do
@@ -12,26 +16,24 @@ class Battle < Sinatra::Base
     end
 
     post '/names' do
-        p "???????????????????????"
-        p params
-        p params[:player_1_name]
-        p $player_1 = Player.new(params[:player_1_name])
-        p $player_2 = Player.new(params[:player_2_name])
+        
+      p  @player_1 = Player.create(params[:player_1_name], 60)
+      p  @player_2 = Player.create(params[:player_2_name], 60) 
+        p @game = Game.create(@player_1, @player_2)
         redirect '/play'
     end
 
     get '/play' do
-        p "!!!!!!!!!!!!!!!!!!!!!!"
-        p @player_1_name = $player_1
-        p @player_2_name = $player_2
+        '????'
+       p @game.player1.name
+        @game.player2.name
+      p  @game.damage(@game.player2)
         erb :play
     end
 
     get '/attack' do
-        @player_1_name = $player_1
-        @player_2_name = $player_2
-        Game.new.damage(@player_2_name)
-        # @player_2_name.big_attack(@player_1_name)
+        "???????"
+       p @player_1
         erb :attack
     end
 
