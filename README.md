@@ -8,4 +8,4 @@
 Technologies: Ruby, RSpec
 
 ![Intro](screenshots/Intro.png)
-![Battle](screenshots/battle.png)
+![Battle](screenshots/Battle.png)
