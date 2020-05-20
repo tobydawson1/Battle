@@ -1,25 +1,22 @@
 <body style="background-image: url('https://wallpaperset.com/w/full/2/6/a/527082.jpg'); background-size: 100% 100%; color: white">
+<h1>
 <%= @game.player1.name %> vs. <%= @game.player2.name %>
-
+</h1>
 <br>
-
+<h2>
 <%= @game.player1.name %>:<font color='red'> 60 HP</font>
 
 <%= @game.player2.name %>:<font color='red'> 60 HP</font>
-
+</h2>
 <br> 
-
+<h3>
 <a href="/attack">attack</a>
 
 <br>
-
+<div> 
+</div>
 
 <a href="/">Pick new contenstants</a>
-
+</h3>
 <br>
 
-<%= @game.player1.name %> vs. <%= @game.player2.name %>
-
-<br>
-
-<%= @game.player2.name %>: <%= @game.player2.hit_points %>HP
