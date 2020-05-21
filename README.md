@@ -26,3 +26,9 @@ $ gem install bundle
 $ bundle
 ```
 
+3. Run the app on a local server 
+
+```
+ruby app.rb
+```
+
