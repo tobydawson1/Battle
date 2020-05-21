@@ -3,7 +3,7 @@
 # Battle
 =================
 
-[Task](#Task) | [Installation](#Installation) | [User Stories](#stories) | [Functionality](#Funtionality) | [Testing](#Testing) | [Methods and Objects](#Methods) |
+[Task](#Task) | [Installation](#Installation) | [User Stories](#User) | [Functionality](#Funtionality) | [Testing](#Testing) | [Methods and Objects](#Methods) |
 
 Technologies: Ruby, RSpec
 
@@ -36,3 +36,4 @@ $ bundle
 ruby app.rb
 ```
 
+## <a name="User"> User Stories </a>
