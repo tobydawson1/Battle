@@ -9,3 +9,20 @@ Technologies: Ruby, RSpec
 
 ![Intro](screenshots/Intro.png)
 ![Battle](screenshots/Battle.png)
+
+## Installation
+
+1. Fork this repoistory and clone  it to your local machine then change into the directory
+
+```
+$ git clone git@github.com:tobydawson1/Battle
+$ cd Battle
+```
+
+2. Load dependencies with bundle:
+
+```
+$ gem install bundle
+$ bundle
+```
+
