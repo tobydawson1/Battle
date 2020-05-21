@@ -3,12 +3,16 @@
 # Battle
 =================
 
-[Task](#Task) | [User Stories](#stories) | [Installation](#Installation) | [Functionality](#Funtionality) | [Testing](#Testing) | [Methods and Objects](#Methods) |
+[Task](#Task) | [Installation](#Installation) | [User Stories](#stories) | [Functionality](#Funtionality) | [Testing](#Testing) | [Methods and Objects](#Methods) |
 
 Technologies: Ruby, RSpec
 
 ![Intro](screenshots/Intro.png)
 ![Battle](screenshots/Battle.png)
+
+## Task
+
+Our task was to create a ruby web app that simulated a battle of your choice. My pair and I went for a pokemon battle as we felt this worked well with the functionality desired.
 
 ## Installation
 
