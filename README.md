@@ -102,3 +102,10 @@ The system's functionality includes:
 * A loser will be announced if their hit points reach 0.
 
 ## Testing
+
+Tests were written with RSpec and Capybara. To run the tests in terminal:
+
+```
+$> cd Battle
+$> rspec
+```
