@@ -100,3 +100,5 @@ The system's functionality includes:
 * A player can click attack to reduce hit points from another player if it is their turn.
 * A player can click OK after their attack to switch turns.
 * A loser will be announced if their hit points reach 0.
+
+## Testing
