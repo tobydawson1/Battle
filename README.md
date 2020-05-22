@@ -3,7 +3,7 @@
 # Battle
 =================
 
-[Task](#Task) | [Installation](#Installation) | [User Stories](#User) | [Functionality](#Funtionality) | [Testing](#Testing) | [Methods and Objects](#Methods) |
+[Task](#Task) | [Installation](#Installation) | [User Stories](#User) | [Functionality](#Functionality) | [Testing](#Testing) | [Methods and Objects](#Methods) |
 
 Technologies: Ruby, RSpec
 
