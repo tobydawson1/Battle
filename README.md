@@ -93,3 +93,10 @@ I want to see a 'Lose' message if I reach 0HP first
 ```
 
 ## <a name="Functionality"> Functionality Descriptions</a>
+
+The system's functionality includes:
+
+* Two players can fill and submit a form to display their names.
+* A player can click attack to reduce hit points from another player if it is their turn.
+* A player can click OK after their attack to switch turns.
+* A loser will be announced if their hit points reach 0.
